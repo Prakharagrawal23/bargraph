@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Application</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <h2>Navigation</h2>
+            <ul>
+                <li><a href="#chart">Chart</a></li>
+                <li><a href="#grid">Grid</a></li>
+            </ul>
+        </aside>
+        <main class="main-content">
+            <section id="chart">
+                <h2>Bar Chart</h2>
+                <canvas id="myChart"></canvas>
+            </section>
+            <section id="grid">
+                <h2>Data Grid</h2>
+                <table id="dataGrid">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+    </div>
+    <script src="/scripts.js"></script>
+</body>
+</html>
